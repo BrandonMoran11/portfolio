@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@theme {
+  --blue-slate: 104, 151, 200; /* #6897c8 en RGB */
+  --blue-royal: 0, 102, 204; /* #0066cc en RGB */
+  --blue-cyan: 92, 225, 230; /* #5ce1e6 en RGB */
+
+  /* Otras variables CSS */
+  --slate-900: 15, 23, 42;
+  --slate-800: 30, 41, 59;
+  --slate-700: 51, 65, 85;
+  --slate-400: 148, 163, 184;
+  --slate-300: 203, 213, 225;
+}
+
+/* Define clases personalizadas usando @apply */
+@layer utilities {
+  .bg-royal {
+    background-color: #0066cc;
+  }
+
+  .bg-slate {
+    background-color: #6897c8;
+  }
+
+  .bg-cyan {
+    background-color: #5ce1e6;
+  }
+}
